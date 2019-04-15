@@ -66,7 +66,6 @@ public class MainActivity extends AppCompatActivity implements ToneThread.ToneCa
         play_tone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 String message = text.getText().toString();
                 if(message.matches("")) {
                     Toast.makeText(MainActivity.this, "메세지를 입력하세요!", Toast.LENGTH_SHORT).show();
